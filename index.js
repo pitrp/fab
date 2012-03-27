@@ -1,4 +1,3 @@
-require.paths.unshift( __dirname );
 module.exports = fab;
 
 function fab( app ){ app( log, imports ) }
